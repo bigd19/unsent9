@@ -1,0 +1,121 @@
+body{
+	background-color: #F5F5F5;
+}
+.1p{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.1p{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: -17;
+        bottom: 5;
+        left: 57;
+        right: 0;
+        margin: auto;
+      }
+	 .1p 1p {
+  max-width: 100%;
+  padding: 10px 10px 10px 10px;
+}
+.2p{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.2p{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: -17;
+        bottom: 5;
+        left: 57;
+        right: 0;
+        margin: auto;
+      }
+	 .2p 2p {
+  max-width: 100%;
+  padding: 10px 20px 10px 10px;
+}
+@media screen and (min-width: 601px){
+.r {
+  float: left;
+  width: 15%;
+  padding: 12.5px;
+}
+
+/* Clear floats after image containers */
+.cotainer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.ti h1{
+	text-align:center;
+	font-size: 36px;
+	padding:40px;
+}
+.ti{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.ti{
+
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: 0;
+        bottom: 5;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+	  .r:hover{
+	transform: scale(1.05);
+}
+}
+.1n{
+    display:block;
+	transition: opacity 0s, visibility 0s;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:160px;
+	width:47%;
+	position:relative;
+}
+.1n 1n{
+	width:90%;
+	height:50%
+}
+
+	  @media screen and (max-width: 600px) {
+	.ti h1{
+	text-align:center;
+	font-size: 40px;
+	padding:40px;
+}
+.r {
+  float: grid;
+  width: 15%;
+  padding: 11px;
+  margin-left:20%;
+}
+.r:hover{
+	transform: scale(1.05);
+}
+
+	  }

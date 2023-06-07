@@ -1,0 +1,536 @@
+body{
+	background-color: #F5F5F5;
+}
+.box{
+	background-color: red;
+	padding: 10px;
+	border: 1px red;
+	height: 160px;
+	width:150px;
+	z-index:3;
+}
+.box{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.box{
+        max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: 15;
+        bottom: 0;
+        left: -2;
+        right: 0;
+        margin: auto;
+      }
+.box1{
+	background-color: white;
+	padding: 10px;
+	border: 1px black;
+	height: 200px;
+	width:165px;
+	z-index:2;
+}
+.box1{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.box1{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: -110;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+
+.box2{
+	background-color: black;
+	padding: 10px;
+	border: 1px black;
+	height: 205px;
+	width:170px;
+	z-index:1;
+}
+.box2{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.box2{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: -110;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+h1{
+	font-weight: 400;
+	color: white;
+	background-color: black;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	
+	
+}
+.txt{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.txt{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -289;
+        bottom: 5;
+        left: -22;
+        right: 0;
+        margin: auto;
+      }
+	  h2{
+	font-weight: 550;
+	color: black;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	
+	
+}
+.un{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.un{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -85;
+        bottom: 5;
+        left: 22.5;
+        right: 0;
+        margin: auto;
+      }
+	  
+h3{
+	font-weight: 750;
+	color: black;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	
+	
+}
+.se{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.se{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -85;
+        bottom: 5;
+        left: -22;
+        right: 0;
+        margin: auto;
+      }
+h4{
+	font-weight: 750;
+	color: black;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	
+	
+}
+.ba{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.ba{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -85;
+        bottom: 5;
+        left: 122;
+        right: 0;
+        margin: auto;
+      }
+	  
+h5{
+	font-weight: 600;
+	color: black;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	
+	
+}
+.to{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.to{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -285;
+        bottom: 5;
+        left: 30;
+        right: 0;
+        margin: auto;
+      }
+	  @keyframes creste1 
+{
+  0% {transform: scale(1.0);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1.0);}
+}
+	  h6{
+	font-weight: 750;
+	color: white;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	animation-name:creste1;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	
+	
+}
+.pa{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.pa{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -235;
+        bottom: 5;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+	  
+.mail{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.mail{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -17;
+        bottom: 5;
+        left: 57;
+        right: 0;
+        margin: auto;
+      }
+	  mail {
+  max-width: 100%;
+  height: auto;
+}
+
+.ti p{
+	text-align:center;
+	font-size: 36px;
+	padding:40px;
+	border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  background-clip: padding-box;
+}
+.ti{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.ti{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: 0;
+        bottom: 5;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+	  
+
+@media screen and (min-width: 601px) {
+.txt{
+    font-size: 10px;
+  }
+  .un{
+    font-size: 8px;
+  }
+  .se{
+    font-size: 11px;
+  }
+  .ba{
+    font-size: 13px;
+  }
+  .to{
+    font-size: 17.5px;
+  }
+  .pa{
+    font-size: 24px;
+  }
+  mail{
+	  height:538px;
+	  width: 301px;
+	
+}
+}
+
+@media screen and (max-width: 600px) {
+.txt{
+    font-size: 9px;
+  }
+  .un{
+    font-size: 8px;
+  }
+  .se{
+    font-size: 11px;
+  }
+  .ba{
+    font-size: 13px;
+  }
+	.to{
+    font-size: 17px;
+  }
+  .pa{
+    font-size: 24px;
+	color:white;
+  }
+  h1{
+	font-weight: 400;
+	color: white;
+	background-color: black;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	
+	
+}
+.txt{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.txt{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -277.5;
+        bottom: 5;
+        left: -22;
+        right: 0;
+        margin: auto;
+      }
+
+
+ h2{
+	font-weight: 550;
+	color: black;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	
+	
+}
+.un{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.un{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -74;
+        bottom: 5;
+        left: 25;
+        right: 0;
+        margin: auto;
+      }
+	  h3{
+	font-weight: 750;
+	color: black;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	
+	
+}
+.se{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.se{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -73.5;
+        bottom: 5;
+        left: -22;
+        right: 0;
+        margin: auto;
+      }
+
+h4{
+	font-weight: 750;
+	color: black;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	
+	
+}
+.ba{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.ba{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -73.5;
+        bottom: 5;
+        left: 122;
+        right: 0;
+        margin: auto;
+      }
+h5{
+	font-weight: 600;
+	color: black;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	
+	
+}
+.to{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.to{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -275;
+        bottom: 5;
+        left: 23;
+        right: 0;
+        margin: auto;
+      }
+	  h6{
+	font-weight: 750;
+	color: black;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	
+	
+}
+.pa{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.pa{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -225;
+        bottom: 5;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+}

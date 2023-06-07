@@ -1,0 +1,1390 @@
+.img-c{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.img-c{
+        max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: 150;
+        bottom: 0;
+        left: 350;
+        right: 0;
+        margin: auto;
+      }/*
+.img-c img{
+	width:90%;
+	height:50%
+}*/
+.1n{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.1n{
+        max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: 150;
+        bottom: 0;
+        left: 500;
+        right: 0;
+        margin: auto;
+      }
+.trans{
+	position: absolute;
+	top:0px;
+	opacity:0;
+	transition: opacity 0.2s ease-in;
+}
+.trans:hover{
+	opacity:1;
+	transition-delay: 1s;
+}
+
+.lsm{
+	text-align:center;
+	margin-top:100px;
+	color: white;
+	font-family: Arial;
+}
+.moon{
+	text-align:left;
+	margin-left:100px;
+	margin-top:100px;
+	color: white;
+	font-family: New Times Roman;
+}
+
+.top-left {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  color:#831010;
+  font-family: Brush Script MT;
+  font-size:75px;
+  font-weight: bold;
+}
+.tl {
+  position: absolute;
+  top: 135px;
+  left: 100px;
+  color:white;
+  font-family: Arial;
+  font-size:15px;
+  opacity:0.3;
+}
+.morti{
+	position: absolute;
+  top:450px;
+  left: 100px;
+  width:150px;
+  height:150px;
+   border-radius: 1px;
+  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);      
+ 
+}
+.morti1{
+	position: absolute;
+  top:450px;
+  left: 280px;
+  width:150px;
+  height:150px;
+  border-radius: 1px;
+  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+}
+.morti2{
+	position: absolute;
+  top:450px;
+  left: 460px;
+  width:150px;
+  height:150px;
+  border-radius: 1px;
+  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+}
+.b{
+	position: absolute;
+  top:375px;
+  left: 100px;
+  width:114px;
+  height:33px;
+  opacity:0.7;
+  border-top-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+
+
+}
+.m{
+	position: absolute;
+  top:375px;
+  left: 220px;
+  width:149px;
+  height:34px;
+opacity:0.7;
+border-top-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+
+}
+	
+.txt{
+	position:absolute;
+	top:70px;
+	left:230px;
+	color:white;
+	font-family:Arial;
+}
+.txt1{
+	position:absolute;
+	top:70px;
+	left:350px;
+	color:white;
+	font-family:Arial;
+}
+
+.txt2{
+	position:absolute;
+	top:70px;
+	left:500px;
+	color:white;
+	font-family:Arial;
+}
+.txt3{
+	position:absolute;
+	top:70px;
+	left:640px;
+	color:white;
+	font-family:Arial;
+}
+.txt4{
+	position:absolute;
+	top:70px;
+	left:840px;
+	color:white;
+	font-family:Arial;
+}
+.txt:hover{
+	color:grey;
+	font-weight: bold;
+}
+.txt1:hover{
+	color:grey;
+	font-weight: bold;
+}
+.txt2:hover{
+	color:grey;
+	font-weight: bold;
+}
+.txt3:hover{
+	color:grey;
+	font-weight: bold;
+}
+.txt4:hover{
+	color:grey;
+	font-weight: bold;
+}
+.morti:hover{
+	width:160px;
+	height:160px;
+}
+.morti1:hover{
+	width:160px;
+	height:160px;
+}
+.morti2:hover{
+	width:160px;
+	height:160px;
+}
+.b:hover{
+	width:117px;
+	height:36px;
+	border-radius: 0.5px;
+  box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.3);
+  opacity:1;
+  border-top-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+}
+.m:hover{
+	width:152px;
+	height:37px;
+	border-radius: 0.5px;
+  box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.3);
+  opacity:1;
+  border-top-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+}
+video{
+		position: absolute;
+  top:100px;
+  left: 100px;
+  width:1160px;
+  height:600px;
+}
+.tl:hover{
+	opacity:0.8;
+}
+.top-left:hover{
+  text-shadow: 2px 2px 8px #611100 ;
+}
+  @media screen and (min-width: 601px){
+
+.r {
+  float: left;
+  width: 12.5%;
+  padding: 10px;
+}
+
+/* Clear floats after image containers */
+.r::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.r:hover{
+transform: scale(0.95);
+}
+.container{
+	display: flex;
+    margin-top: 30px;
+	margin-left: 370px;
+}
+.tit h1{
+	text-align:center;
+	font-size: 36px;
+	padding:40px;
+    color:white;
+	font-family: Arial;
+}
+.tit{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.tit{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: 70;
+        bottom: 5;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+  }
+  @media screen and (max-width: 600px) {
+.img-c{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.img-c{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 250;
+        bottom: 0;
+        left:-210;
+        right: 0;
+        margin: auto;
+      }
+.trans{
+	position: absolute;
+	top:0px;
+	opacity:0;
+	transition: opacity 0.2s ease-in;
+}
+.trans:hover{
+	opacity:1;
+	transition-delay: 1s;
+}
+.net{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste1;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+.net{
+        max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 75;
+        right: 0;
+        margin: auto;
+      }
+	.tit h1{
+	text-align:center;
+	font-size: 20px;
+	padding-top:-10px;
+	color:white;
+	font-family: Arial;
+}
+@keyframes creste 
+{
+  0% {transform: scale(0.9);}
+  50% {transform: scale(0.9);}
+  100% {transform: scale(0.9);}
+}
+.r{
+	animation-name: creste;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+	
+}
+.r {
+  flex: 0%;
+    max-width: 60%;
+	padding-top:0px;
+	padding-left:40px;
+}
+
+.r:hover{
+transform: scale(0.95);
+}
+/*.menu{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.menu{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 250;
+        bottom: 0;
+        left:-200;
+        right: 0;
+        margin: auto;
+		padding-left:20px;
+		padding-top: 100px;
+		margin-left:10px;
+		z-index:1;
+      }*/
+.c1 li{
+	font-weight: 550;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	z-index: 1;
+	
+	
+}
+.c1{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.c1{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -670;
+        bottom: 5;
+        left: -210;
+        right: 0;
+        margin: auto;
+      }
+	  .c2 li{
+	font-weight: 550;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	z-index: 1;
+	
+	
+}
+.c2{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.c2{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -550;
+        bottom: 5;
+        left: -210;
+        right: 0;
+        margin: auto;
+      }
+	  	  .c3 li{
+	font-weight: 550;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	z-index: 1;
+	
+	
+}
+.c3{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.c3{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -420;
+        bottom: 5;
+        left: -225;
+        right: 0;
+        margin: auto;
+      }
+	  	  .c4 li{
+	font-weight: 550;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	z-index: 1;
+	
+	
+}
+.c4{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.c4{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -310;
+        bottom: 5;
+        left: -225;
+        right: 0;
+        margin: auto;
+      }
+	  	  .c5 li{
+	font-weight: 550;
+	margin-top: 1.0vw;
+	position:absolute;
+	top:15rem;
+	z-index: 1;
+	
+}
+.c5{
+    position:relative;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+}
+.c5{
+        z-index:4;
+		max-height: 100%;
+        max-width: 90%;
+        position: relative;
+        top: -180;
+        bottom: 5;
+        left: -205;
+        right: 0;
+        margin: auto;
+      }
+	  
+	  @keyframes creste4
+{
+  0% {transform: scale(0.999);}
+  50% {transform: scale(0.999);}
+  100% {transform: scale(0.999);}
+}
+	  .noi{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste4;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:0;
+	
+}
+.noi{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: -345;
+        bottom: 0;
+        left:0;
+        right: 0;
+        margin: auto;
+		
+      }
+	  @keyframes creste5
+{
+  0% {transform: scale(0.8);}
+  50% {transform: scale(0.8);}
+  100% {transform: scale(0.8);}
+}
+	  	  .play1{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste5;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+	border-radius:10px;
+}
+.play1{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 180;
+        bottom: 0;
+        left:-10;
+        right: 0;
+        margin: auto;
+      }
+	  @keyframes creste6
+{
+  0% {transform: scale(0.8);}
+  50% {transform: scale(0.8);}
+  100% {transform: scale(0.8);}
+}
+	  	  .more1{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+	border-radius:10px;
+}
+.more1{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 180;
+        bottom: 0;
+        left:220;
+        right: 0;
+        margin: auto;
+      }
+	  .my{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+	border-radius:10px;
+}
+.my{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 180;
+        bottom: 0;
+        left:-200;
+        right: 0;
+        margin: auto;
+      }
+	  .lan{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+	border-radius:10px;
+}
+.lan{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 180;
+        bottom: -80;
+        left:-250;
+        right: 0;
+        margin: auto;
+      }
+	  	  .ban2{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+	border-radius:10px;
+}
+.ban2{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 600;
+        bottom: -80;
+        left:0;
+        right: 0;
+        margin: auto;
+      }
+	  	  	  .rev2{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+	border-radius:10px;
+}
+.rev2{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 320;
+        bottom: -80;
+        left:190;
+        right: 0;
+        margin: auto;
+      }
+	  .nig2{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+	border-radius:10px;
+}
+.nig2{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 320;
+        bottom: -80;
+        left:-200;
+        right: 0;
+        margin: auto;
+      }
+	  	  .ho{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+
+}
+.ho{
+        max-height: 100%;
+        max-width: 90%;
+       position:absolute;
+        top: 780;
+        bottom: -80;
+        left:-330;
+        right: 0;
+        margin: auto;
+      }
+	  	  	  .jo{
+   position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+
+}
+.jo{
+        max-height: 100%;
+        max-width: 90%;
+        position:absolute;
+        top: 780;
+        bottom: -80;
+        left:-130;
+        right: 0;
+        margin: auto;
+      }
+	  	  	  .no{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+
+}
+.no{
+        max-height: 100%;
+        max-width: 90%;
+      position:absolute;
+        top: 780;
+        bottom: -80;
+        left:90;
+        right: 0;
+        margin: auto;
+      }
+	    	  	  .de{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+
+}
+.de{
+        max-height: 100%;
+        max-width: 90%;
+        position:absolute;
+        top: 780;
+        bottom: -80;
+        left:300;
+        right: 0;
+        margin: auto;
+      }
+	  	    	  	  .gr{
+   position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:1;
+
+}
+.gr{
+        max-height: 100%;
+        max-width: 90%;
+        position:absolute;
+        top: 780;
+        bottom: -80;
+        left:-80;
+        right: 0;
+        margin: auto;
+      }
+	  	  @keyframes creste7
+{
+  0% {transform: scale(0.16);}
+  50% {transform: scale(0.16);}
+  100% {transform: scale(0.16);}
+}
+    
+	
+
+	  .v1{
+		  z-index:1;
+		  animation-name: creste7;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	  }
+	  	  .v1{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+
+}
+.v1{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 285;
+        bottom: -80;
+        left:-360;
+        right: 0;
+        margin: auto;
+      }
+
+	  
+	  	 @keyframes pula
+{
+  0% {transform: scale(0.15);}
+  50% {transform: scale(0.15);}
+  100% {transform: scale(0.15);}
+}
+    
+	
+	  .v2{
+		  z-index:1;
+		  animation-name: pula;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	  }
+	  	  .v2{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+
+}
+.v2{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 285;
+        bottom: -80;
+        left:30;
+        right: 0;
+        margin: auto;
+      }
+	  
+
+@keyframes pula
+{
+  0% {transform: scale(0.16);}
+  50% {transform: scale(0.16);}
+  100% {transform: scale(0.16);}
+}
+    
+	
+	  .v3{
+		  z-index:1;
+		  animation-name: pula;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	
+	  }
+	  	  .v3{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+
+}
+.v3{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 530;
+        bottom: -80;
+        left:-155;
+        right: 0;
+        margin: auto;
+      }
+	  
+	
+.button1{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	z-index:5;
+
+}
+.button1{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 320;
+        bottom: -80;
+        left:-200;
+        right: 0;
+        margin: auto;
+		opacity:0;
+      }
+	  .button2{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	z-index:5;
+
+}
+.button2{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 320;
+        bottom: -80;
+        left:190;
+        right: 0;
+        margin: auto;
+		opacity:0;
+      }
+	  	  .button3{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	z-index:5;
+
+}
+.button3{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 600;
+        bottom: -80;
+        left:0;
+        right: 0;
+        margin: auto;
+		opacity:0
+      }
+.button4{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	z-index:2;
+	opacity:0;
+
+}
+.button4{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 450;
+        bottom: -80;
+        left:0;
+        right: 0;
+        margin: auto;
+		
+      }
+	  .ho1{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+
+}
+.ho1{
+        max-height: 100%;
+        max-width: 90%;
+       position:absolute;
+        top: 780;
+        bottom: -80;
+        left:-330;
+        right: 0;
+        margin: auto;
+      }
+	  	  	  .jo1{
+   position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+
+}
+.jo1{
+        max-height: 100%;
+        max-width: 90%;
+        position:absolute;
+        top: 780;
+        bottom: -80;
+        left:-130;
+        right: 0;
+        margin: auto;
+      }
+	  	  	  .no1{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+
+}
+.no1{
+        max-height: 100%;
+        max-width: 90%;
+      position:absolute;
+        top: 780;
+        bottom: -80;
+        left:90;
+        right: 0;
+        margin: auto;
+      }
+	    	  	  .de1{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+
+}
+.de1{
+        max-height: 100%;
+        max-width: 90%;
+        position:absolute;
+        top: 780;
+        bottom: -80;
+        left:300;
+        right: 0;
+        margin: auto;
+      }
+	  	    	  	  .gr1{
+   position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name: creste6;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:1;
+
+}
+.gr1{
+        max-height: 100%;
+        max-width: 90%;
+        position:absolute;
+        top: 780;
+        bottom: -80;
+        left:-80;
+        right: 0;
+        margin: auto;
+      }
+	  @keyframes pl7
+{
+  0% {transform: scale(0.35);}
+  50% {transform: scale(0.35);}
+  100% {transform: scale(0.35);}
+}
+    
+	
+
+	  .v4{
+		  z-index:1;
+		  animation-name: pl7;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	  }
+	  	  .v4{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+
+}
+.v4{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: -680;
+        bottom: -80;
+        left:-350;
+        right: 0;
+        margin: auto;
+      }
+@keyframes 12
+{
+  0% {transform: scale(0,5);}
+  50% {transform: scale(0,5);}
+  100% {transform: scale(0,5);}
+}
+	  	  .star{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name:12;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+	border-radius:10px;
+}
+.star{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: -340;
+        bottom: 0;
+        left:-250;
+        right: 0;
+        margin: auto;
+      }
+	  @keyframes 2
+{
+  0% {transform: scale(1);}
+  50% {transform: scale(1);}
+  100% {transform: scale(1);}
+}
+	  	  .top{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name:2;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+	border-radius:10px;
+}
+.top{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: -200;
+        bottom: 0;
+        left:-10;
+        right: 0;
+        margin: auto;
+      }
+	  @keyframes 3
+{
+  0% {transform: scale(1);}
+  50% {transform: scale(1);}
+  100% {transform: scale(1);}
+}
+	  	  .des{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name:3;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+	border-radius:10px;
+}
+.des{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 200;
+        bottom: 0;
+        left:-10;
+        right: 0;
+        margin: auto;
+      }
+	  	  @keyframes 3
+{
+  0% {transform: scale(1);}
+  50% {transform: scale(1);}
+  100% {transform: scale(1);}
+}
+	  	  .plm{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name:3;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+	border-radius:10px;
+}
+.plm{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: -60;
+        bottom: 0;
+        left:-10;
+        right: 0;
+        margin: auto;
+      }
+	  	  	  @keyframes 4
+{
+  0% {transform: scale(1);}
+  50% {transform: scale(1);}
+  100% {transform: scale(1);}
+}
+	  	  .dem{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name:4;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+	border-radius:10px;
+}
+.dem{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 50;
+        bottom: 0;
+        left:-10;
+        right: 0;
+        margin: auto;
+      }
+	  @keyframes 5
+{
+  0% {transform: scale(1);}
+  50% {transform: scale(1);}
+  100% {transform: scale(1);}
+}
+	  	  .br{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+	animation-name:5;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	z-index:2;
+	border-radius:10px;
+}
+.br{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: 300;
+        bottom: 0;
+        left:-10;
+        right: 0;
+        margin: auto;
+      }
+    
+	  	  .v5{
+    position:absolute;
+    top:20%;
+    left:33%;   
+    cursor:pointer;
+    max-width:100%;
+    max-height:100%;
+
+}
+.v5{
+        max-height: 100%;
+        max-width: 90%;
+        position: absolute;
+        top: -500;
+        bottom: -80;
+        left:0;
+        right: 0;
+        margin: auto;
+		scale:0.9;
+		transform: rotate(90deg);
+      }
+ }
+ 

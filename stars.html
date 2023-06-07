@@ -1,0 +1,123 @@
+
+<!doctype=html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>
+officialpagesaucumplmsescrie
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body style="background-color:#000000;">
+
+<img class="noi" src="img/noi.jpg">
+<a href="clip.html">
+<img class="play1" src="img/play1.jpg">
+</a>
+<img class="more1" src="img/more1.jpg">
+<img class="my" src="img/my.png" style="width:95px;height:30px;">
+<img class="lan" src="img/lan.jpg" style="width:180px;height:45px;">
+<img id="ban2"  class="ban2" src="img/ban2.jpg" style="width:155px;height:155px;">
+<audio id="audio3" src="img/a3.mp3" loop></audio>
+
+<button id="button1" value="PLAY" onclick="play1();"  class="button1" style="width:113px;height:113px;" >v1</button>
+<button id="button2" value="PLAY" onclick="play2();"  class="button2" style="width:113px;height:113px;">v2</button>
+<button id="button3" value="PLAY" onclick="play3();"  class="button3" style="width:113px;height:113px;">v3</button>
+<button id="button4" value="PLAY" onclick="play4();"  class="button4" style="height:270px;">v4</button>
+
+
+<img id="rev2"  class="rev2" src="img/rev2.jpg" style="width:155px;height:155px;">
+<audio id="audio2" src="img/a2.mp3" loop ></audio>
+
+<img id="nig2" class="nig2" src="img/nig2.jpg" style="width:155px;height:155px;">
+<audio id="audio1" src="img/a1.mp3" loop ></audio>
+
+<a href="lsm.html">
+<img class="ho" src="img/ho.jpg" style="width:120px;height:70px;">
+<img class="jo" src="img/jo.jpg" style="width:120px;height:70px;">
+<img class="no" src="img/no.jpg" style="width:119px;height:69px;">
+<img class="de" src="img/de.jpg" style="width:120px;height:70px;">
+<img class="gr" src="img/gr.jpg" style="width:750px;height:70px;">
+</a>
+<div class="v1">
+
+<video id="video3" width="15px" height="15px" autoplay muted loop>
+  <source src="img/l1.mp4" type="video/mp4">
+  <source src="img/l1.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+
+</div>
+
+<div class="v2">
+
+<video id="video2" width="10px" height="10px" autoplay muted loop>
+  <source src="img/l2.mp4" type="video/mp4">
+  <source src="img/l2.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+
+</div>
+
+<div class="v3">
+
+<video id="video3" width="10px" height="10px" autoplay muted loop>
+  <source src="img/l3.mp4" type="video/mp4">
+  <source src="img/l3.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</div>
+
+<script type="text/javascript">
+var audio1 = document.getElementById("audio1");
+var audio2 = document.getElementById("audio2");
+var audio3 = document.getElementById("audio3");
+var nig2=document.getElementById("nig2");
+
+
+  function play1(){
+
+	audio1.play();
+    audio2.pause();
+	audio3.pause();
+	nig2.style.visibility="hidden";
+	ban2.style.visibility ="visible";
+	rev2.style.visibility ="visible";
+	video1.play();
+	video2.pause();
+	video3.pause();
+  }
+
+  function play2(){
+    audio1.pause();
+    audio2.play();
+	audio3.pause();
+	nig2.style.visibility ="visible";
+	rev2.style.visibility ="hidden";
+	ban2.style.visibility ="visible";
+  } 
+  function play3(){
+    audio1.pause();
+    audio2.pause();
+	audio3.play();
+	nig2.style.visibility ="visible";
+	rev2.style.visibility ="visible";
+	ban2.style.visibility ="hidden";
+   
+  } 
+  function play4(){
+
+	audio1.pause();
+    audio2.pause();
+	audio3.pause();
+	nig2.style.visibility="visible";
+	ban2.style.visibility ="visible";
+	rev2.style.visibility ="visible";
+	video1.pause();
+	video2.pause();
+	video3.pause();
+  }
+</script>
+</body>
+</html>
